@@ -1,0 +1,51 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+ }
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#122e93,#1f98d5);
+}
+
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 400px;
+    width: 100%;
+    background-image:linear-gradient(#c41e82,#0f3443);
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 7px 7px 9px rgb(73, 74, 74);
+}
+.wrapper .input-box h6{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(70, 129, 180);
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+.wrapper .icon{
+    font-size: 20px;
+    color: #ffff;
+}
+
+.wrapper .input-box input{
+    max-width: 100px;
+    height: 47px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 23px;
+    color: #595757;
+    font-weight: 600;
+
+}
